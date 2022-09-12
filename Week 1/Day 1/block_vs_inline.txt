@@ -12,3 +12,4 @@ Inline elements
 * Links (a)
 * Inside form (input, label, button, select, textarea)
 * Markup/Format ( b - strong )
+* Text ( span )
