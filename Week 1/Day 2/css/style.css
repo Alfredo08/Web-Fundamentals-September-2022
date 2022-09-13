@@ -1,0 +1,72 @@
+
+.formElement, li{
+    width: 250px;
+}
+
+#submitButton{
+    background-color: rgb(4, 158, 4);
+    color: white;
+}
+
+.formButtons{
+    padding: 15px; 
+    /* padding-left: 20px;
+    padding-right: 5px;
+    padding-top: 30px; 
+    padding: 10px 30px;
+    padding: 10px 20px 30px 40px; */
+    margin: 40px;
+}
+
+.info{
+    border: 1px solid black;
+    padding: 10px;
+    display: block;
+    /*border-color: black;
+    border-style: solid;
+    border-width: 1px; */
+}
+
+h1{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Target the immediate <li> elements inside a <ul> */
+ul > li {
+    border: 1px solid rgb(58, 10, 152); 
+}
+
+/* Target all <li> elements regardless of the level of hierarchy */
+/*ul li {
+    padding: 10px;
+} */
+
+.formElement[type="text"]{
+    height: 50px;
+}
+
+li.secondary{
+    color: red;
+}
+
+#about{
+    color: green;
+}
+
+li {
+    /* color: #D30B32; */
+    color: rgb(58, 10, 152); 
+    display: inline;
+}
+
+p > label{
+    color: purple;
+}
+
+label{
+    color: blue;
+}
+
+
+/*  #id > .class > element */
