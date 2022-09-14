@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 
 header{
     display: flex;
@@ -58,4 +61,23 @@ ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid blue;
+}
+
+.item{
+    border: 1px solid black;
+    width: 250px; 
+    /* flex: 50%; */
+}
+
+.special{
+    align-self: flex-start;
 }
