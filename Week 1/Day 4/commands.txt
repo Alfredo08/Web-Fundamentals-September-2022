@@ -1,0 +1,13 @@
+
+MAC                 WINDOWS                     DESCRIPTION
+ls                  dir                         List all the folders and files in the current location
+cd                  cd                          Change to a directory
+cd ..               cd ..                       Go up to the parent folder
+touch filename.ext  type nul >> filename.ext    Create a new file with its extension
+mkdir folderName    mkdir folderName            Create a new folder
+clear               cls                         Clears out the terminal
+rm fileName.ext     del fileName.ext            Removes/Deletes a file
+rm -rf folderName   rmdir folderName            Removes a folder and its content
+mv file newFile     ren file newFile            Rename a file or folder
+cp -r folder path   robocopy folder path        Copies a folder to a new location
+cp file path        copy file path              Copies a file to a new location
