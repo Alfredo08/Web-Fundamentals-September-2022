@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> DOM </title>
+        <script src="./js/index.js"></script>
+    </head>
+    <body>
+        <h1>
+            Today we are learning how to use the Document Object Model (DOM)
+        </h1>
+        <div class="content">
+            Some content will be here.
+        </div>
+        <div id="extra">
+            Some extra content will be here as well.
+        </div>
+
+        <form onmouseover="enterForm(this)" onmouseout="leaveForm(this)">
+            <div>
+                <label>
+                    Name:
+                </label>
+                <input type="text" name="firstName" id="firstName" />
+            </div>
+        </form>
+
+        <button onclick="print(this)">
+            Click me!
+        </button>
+        <button onclick="print(this)">
+            Click me again!
+        </button>
+        <button onclick="print(this)">
+            Extra!
+        </button>
+
+        <select id="country" onchange="selectCountry(this)">
+            <option value="US">United States</option>
+            <option value="FR">France</option>
+            <option value="MX">Mexico</option>
+        </select>
+
+        <div class="results"></div>
+    </body>
+</html>
