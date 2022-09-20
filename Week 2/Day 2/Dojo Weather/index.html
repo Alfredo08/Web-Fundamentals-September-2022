@@ -14,13 +14,13 @@
                 Dojo Weather
             </h1>
             <div class="navigationCities">
-                <p class="city">
+                <p class="city" onclick="loadingCityInformation(this)">
                     Burbank
                 </p>
-                <p class="city">
+                <p class="city" onclick="loadingCityInformation(this)">
                     Chicago
                 </p>
-                <p class="city">
+                <p class="city" onclick="loadingCityInformation(this)">
                     Dallas
                 </p>
             </div>
@@ -34,7 +34,7 @@
                     <span>
                         show temperature in
                     </span>
-                    <select class="currentTemperature">
+                    <select class="currentTemperature" onchange="changeTemperature(this)">
                         <option value="cel">
                             Cº
                         </option>
@@ -57,10 +57,10 @@
                     </div>
                     <div class="maxMinTemperature">
                         <span class="max">
-                            24º
+                            24
                         </span>
                         <span class="min">
-                            18º
+                            18
                         </span>
                     </div>
                 </div>
@@ -76,10 +76,10 @@
                     </div>
                     <div class="maxMinTemperature">
                         <span class="max">
-                            27º
+                            27
                         </span>
                         <span class="min">
-                            19º
+                            19
                         </span>
                     </div>
                 </div>
@@ -95,10 +95,10 @@
                     </div>
                     <div class="maxMinTemperature">
                         <span class="max">
-                            21º
+                            21
                         </span>
                         <span class="min">
-                            16º
+                            16
                         </span>
                     </div>
                 </div>
@@ -114,10 +114,10 @@
                     </div>
                     <div class="maxMinTemperature">
                         <span class="max">
-                            26º
+                            26
                         </span>
                         <span class="min">
-                            21º
+                            21
                         </span>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                     </p>
                 </div>
                 <div class="cookieAccept">
-                    <button>
+                    <button onclick="removeCookie(this)">
                         I Accept
                     </button>
                 </div>

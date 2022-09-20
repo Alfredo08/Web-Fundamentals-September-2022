@@ -1,5 +1,5 @@
 *{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 nav{
@@ -12,6 +12,7 @@ nav{
 
 .navigationCities{
     display: flex;
+    align-items: center;
 }
 
 .city{
@@ -23,6 +24,7 @@ nav{
     justify-content: space-between;
     margin: 10px 40px;
     border-bottom: 2px solid black;
+    align-items: center;
 }
 
 .weatherByDay{
@@ -33,7 +35,7 @@ nav{
 }
 
 .dayOfWeek{
-    background-color: rgb(172, 170, 170);
+    background-color: rgb(227, 227, 227);
     flex: 1;
     text-align: center;
     padding: 15px;
@@ -54,6 +56,11 @@ nav{
 
 .min{
     color: blue;
+}
+
+.max, .min{
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .cookiePolicy{
@@ -79,4 +86,19 @@ nav{
 
 .cookieAccept > button{
     background-color: aqua;
+    border-color: black;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.hideElement{
+    display: none;
+}
+
+.max::after, .min::after{
+    content: "º";
+}
+
+.weatherStatus{
+    margin: 10px 0;
 }
