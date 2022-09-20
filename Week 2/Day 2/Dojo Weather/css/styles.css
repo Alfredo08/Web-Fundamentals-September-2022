@@ -1,0 +1,82 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    color: white;
+    padding: 10px 40px;
+}
+
+.navigationCities{
+    display: flex;
+}
+
+.city{
+    margin-left: 20px;
+}
+
+.currentCity{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 40px;
+    border-bottom: 2px solid black;
+}
+
+.weatherByDay{
+    display: flex;
+    margin: 10px 40px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.dayOfWeek{
+    background-color: rgb(172, 170, 170);
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+}
+
+.dayImage > img{
+    border-radius: 50%;
+    width: 60%;
+}
+
+.maxMinTemperature{
+    display: flex;
+    justify-content: space-evenly;
+}
+.max{
+    color: red;
+}
+
+.min{
+    color: blue;
+}
+
+.cookiePolicy{
+    display: flex;
+    border: 2px solid black;
+    margin: 10px 40px;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+}
+
+.cookieImage, .cookieAccept{
+    flex: 1;
+}
+
+.cookieImage > img{
+    width: 80%;
+}
+
+.cookieContent{
+    flex: 4;
+}
+
+.cookieAccept > button{
+    background-color: aqua;
+}
